@@ -62,12 +62,12 @@
           <p>Silahkan klik menu pilihan yang berada di sebelah kiri untuk mengelola data-data pada aplikasi ini
               atau pilih ikon-ikon pada Control Panel di bawah ini : </p>
 
-          <a href="<?php echo base_url(); ?>app/satuan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Satuan</a>
-          <a href="<?php echo base_url(); ?>app/rak" class='btn btn-app'><i class='fa fa-file-image-o'></i> Rak Barang</a>
+          <a href="<?php echo base_url(); ?>app/satuan" class='btn btn-app'><i class='fa fa-check-square'></i> Satuan</a>
+          <a href="<?php echo base_url(); ?>app/rak" class='btn btn-app'><i class='glyphicon glyphicon-inbox'></i> Rak Barang</a>
           <a href="<?php echo base_url(); ?>app/kategori" class='btn btn-app'><i class='fa fa-circle-thin'></i> Kategori</a>
           <a href="<?php echo base_url(); ?>app/subkategori" class='btn btn-app'><i class='fa fa-file'></i> Subkategori</a>
           <a href="<?php echo base_url(); ?>app/kategori_pelanggan" class='btn btn-app'><i class='fa fa-circle'></i> Kategori Pelanggan</a>
-          <a href="<?php echo base_url(); ?>app/agen_ekspedisi" class='btn btn-app'><i class='fa fa-file-text'></i> Agen Ekspedisi</a>
+          <!-- <a href="<?php echo base_url(); ?>app/agen_ekspedisi" class='btn btn-app'><i class='fa fa-file-text'></i> Agen Ekspedisi</a> -->
           <a href="<?php echo base_url(); ?>app/sebab_alasan" class='btn btn-app'><i class='fa fa-bed'></i> Sebab Alasan</a>
           <a href="<?php echo base_url(); ?>app/negara" class='btn btn-app'><i class='glyphicon glyphicon-king'></i> Negara</a>
           <a href="<?php echo base_url(); ?>app/provinsi" class='btn btn-app'><i class='glyphicon glyphicon-queen'></i> Propinsi</a>
@@ -78,19 +78,19 @@
           <a href="<?php echo base_url(); ?>app/barang" class='btn btn-app'><i class='fa fa-th'></i> Data Barang</a>
           <a href="<?php echo base_url(); ?>app/promosi" class='btn btn-app'><i class='fa fa-th-large'></i> Barang Promosi</a>
           <a href="<?php echo base_url(); ?>app/penyesuaian" class='btn btn-app'><i class='fa fa-television'></i> Penyesuaian Barang </a>
-          <a href="<?php echo base_url(); ?>app/barcode" class='btn btn-app'><i class='fa fa-bars'></i> Barcode</a>
+          <a href="<?php echo base_url(); ?>app/barcode" class='btn btn-app'><i class='fa fa-barcode'></i> Barcode</a>
           <a href="<?php echo base_url(); ?>app/pembelian" class='btn btn-app'><i class='fa fa-comments'></i> Pembelian</a>
-          <a href="<?php echo base_url(); ?>app/supplier" class='btn btn-app'><i class='fa fa-bell-slash'></i> Supplier</a>
-          <a href="<?php echo base_url(); ?>app/pelanggan" class='btn btn-app'><i class='glyphicon glyphicon-ok'></i> Pelanggan</a>
-          <a href="<?php echo base_url(); ?>app/karyawan" class='btn btn-app'><i class='glyphicon glyphicon-ok'></i> User</a>
+          <a href="<?php echo base_url(); ?>app/supplier" class='btn btn-app'><i class='fa fa-truck'></i> Supplier</a>
+          <a href="<?php echo base_url(); ?>app/pelanggan" class='btn btn-app'><i class='fa fa-users'></i> Pelanggan</a>
+          <a href="<?php echo base_url(); ?>app/karyawan" class='btn btn-app'><i class='fa fa-user'></i> User</a>
           <a href="<?php echo base_url(); ?>app/jabatan" class='btn btn-app'><i class='fa fa-th-list'></i> Jabatan</a>
-          <a href="<?php echo base_url(); ?>app/departemen" class='btn btn-app'><i class='fa fa-bar-chart-o'></i> Departemen</a>
-          <a href="<?php echo base_url(); ?>app/bebanbiaya" class='btn btn-app'><i class='fa fa-file-image-o'></i> Beban Biaya</a>
-          <a href="<?php echo base_url(); ?>app/pendapatan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Pendapatan</a>
-          <a href="<?php echo base_url(); ?>app/perkiraan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Perkiraan</a>
-          <a href="<?php echo base_url(); ?>app/conf_perusahaan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Conf. Perusahaan</a>
-          <a href="<?php echo base_url(); ?>app/conf_barang" class='btn btn-app'><i class='fa fa-file-image-o'></i> Conf. Barang</a>
-          <a href="<?php echo base_url(); ?>app/conf_penjualan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Conf. Penjualan</a>
+          <!-- <a href="<?php echo base_url(); ?>app/departemen" class='btn btn-app'><i class='fa fa-bar-chart-o'></i> Departemen</a> -->
+          <!-- <a href="<?php echo base_url(); ?>app/bebanbiaya" class='btn btn-app'><i class='fa fa-file-image-o'></i> Beban Biaya</a> -->
+          <!-- <a href="<?php echo base_url(); ?>app/pendapatan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Pendapatan</a> -->
+          <!-- <a href="<?php echo base_url(); ?>app/perkiraan" class='btn btn-app'><i class='fa fa-file-image-o'></i> Perkiraan</a> -->
+          <a href="<?php echo base_url(); ?>app/conf_perusahaan" class='btn btn-app'><i class='fa fa-cogs'></i> Conf. Perusahaan</a>
+          <a href="<?php echo base_url(); ?>app/conf_barang" class='btn btn-app'><i class='fa fa-cogs'></i> Conf. Barang</a>
+          <a href="<?php echo base_url(); ?>app/conf_penjualan" class='btn btn-app'><i class='fa fa-cogs'></i> Conf. Penjualan</a>
           <a href="<?php echo base_url(); ?>app/edit_karyawan/<?php echo $this->session->id_users; ?>" class='btn btn-app'><i class='fa fa-edit'></i> Profile</a>
           <a href="<?php echo base_url(); ?>app/logout" class='btn btn-app'><i class='glyphicon glyphicon-off'></i> Logout</a>
         </div>

@@ -67,23 +67,23 @@
             </li>
 
             <li class="treeview">
-              <a href="#"><i class="fa fa-odnoklassniki"></i> <span>Karyawan</span><i class="fa fa-angle-left pull-right"></i></a>
+              <a href="#"><i class="fa fa-user"></i> <span>User</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="<?php echo base_url(); ?>app/karyawan"><i class="fa fa-circle-o"></i> Daftar Karyawan</a></li>
+                <li><a href="<?php echo base_url(); ?>app/karyawan"><i class="fa fa-circle-o"></i> Daftar User</a></li>
                 <li><a href="<?php echo base_url(); ?>app/jabatan"><i class="fa fa-circle-o"></i> Jabatan</a></li>
                 <li><a href="<?php echo base_url(); ?>app/departemen"><i class="fa fa-circle-o"></i> Departemen</a></li>
                 <!--<li><a href="<?php echo base_url(); ?>app/#"><i class="fa fa-circle-o"></i> Hak Akses</a></li>-->
               </ul>
             </li>
 
-            <li class="treeview">
+            <!-- <li class="treeview">
               <a href="#"><i class="fa fa-money"></i> <span>Keuangan</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
                 <li><a href="<?php echo base_url(); ?>app/bebanbiaya"><i class="fa fa-circle-o"></i> Beban Biaya</a></li>
                 <li><a href="<?php echo base_url(); ?>app/pendapatan"><i class="fa fa-circle-o"></i> Pendapatan</a></li>
                 <li><a href="<?php echo base_url(); ?>app/perkiraan"><i class="fa fa-circle-o"></i> Data Perkiraan</a></li>
               </ul>
-            </li>
+            </li> -->
 
             <li class="treeview">
               <a href="#"><i class="glyphicon glyphicon-book"></i> <span>Laporan</span><i class="fa fa-angle-left pull-right"></i></a>
