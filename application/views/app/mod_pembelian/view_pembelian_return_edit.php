@@ -2,10 +2,9 @@
   .anu tbody td {
     padding:3px !important;
     border:1px solid #e3e3e3;
-
+  }
   .rapat tbody tr td{
     padding:0px !important;
-  }
   }
 </style>
 <?php 
@@ -19,7 +18,7 @@
               echo form_open_multipart('app/edit_pembelian_return',$attributes); 
                 $tgltrm = $this->db->query("SELECT GROUP_CONCAT(DATE_FORMAT(tanggal_terima, '%d/%m/%Y') SEPARATOR ', ') as tanggal  FROM `mu_pembelian_terima` where id_pembelian='".$row['id_pembelian']."'")->row_array();
           echo "<div class='col-md-6'>
-                  <table class='table table-condensed table-bordered rapat'>
+                  <table class='rapat table table-condensed table-bordered'>
                   <tbody>
                     <input type='hidden' name='id' value='$row[id_pembelian_return]'>
                     <tr><th width='150px' scope='row'>No. Pembelian</th><td>: $row[kode_pembelian]</td></tr>

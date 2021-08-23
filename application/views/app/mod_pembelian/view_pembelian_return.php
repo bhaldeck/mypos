@@ -2,10 +2,9 @@
   .anu tbody td {
     padding:3px !important;
     border:1px solid #e3e3e3;
-
+  }
   .rapat tbody tr td{
     padding:0px !important;
-  }
   }
 </style>
 <?php 
