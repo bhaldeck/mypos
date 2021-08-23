@@ -71,7 +71,7 @@ $kode_terima = "TR-".sprintf("%06s", $kode->id_pembelian_terima+1);
                   <tbody>
                     <tr><th width='150px' scope='row'>Tanggal Terima</th>    <td><input type='text' id='datepicker' class='form-control' name='e' required></td></tr>
                     <tr><th scope='row'>Penerima Barang</th>    <td><select name='f' class='combobox form-control'>
-                                                                  <option value='' selected>Cari Karyawan</option>";
+                                                                  <option value='' selected>Cari User</option>";
                                                                 foreach ($karyawan as $rows){
                                                                     echo "<option value='$rows[id_karyawan]'>$rows[nama_karyawan]</option>";
                                                                 }

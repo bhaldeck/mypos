@@ -58,7 +58,7 @@
                   <tbody>
                     <tr><th width='150px' scope='row'>Tanggal Terima</th>    <td><input type='text' id='datepicker' class='form-control' name='e' value='".tgl_slash($row['tanggal_terima'])."' required></td></tr>
                     <tr><th scope='row'>Penerima Barang</th>    <td><select name='f' class='combobox form-control'>
-                                                                  <option value='' selected>Cari Karyawan $row[id_karyawan]</option>";
+                                                                  <option value='' selected>Cari User $row[id_karyawan]</option>";
                                                                 foreach ($karyawan as $rows){
                                                                   if ($row['id_karyawan']==$rows['id_karyawan']){
                                                                     echo "<option value='$rows[id_karyawan]' selected>$rows[nama_karyawan]</option>";

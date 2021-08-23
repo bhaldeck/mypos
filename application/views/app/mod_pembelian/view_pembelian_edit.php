@@ -30,7 +30,7 @@
                     <tr><th width='150px' scope='row'>No. Pembelian</th>    <td><input type='text' class='form-control' name='a' value='$kode_pembelian' required></td></tr>
                     <tr><th scope='row'>Tanggal Kirim</th>    <td><input type='text' id='datepicker' class='form-control' name='b' value='$tgl_kirim' required></td></tr>
                     <tr><th scope='row'>Oleh Karyawan</th>    <td><select name='c' class='combobox form-control'>
-                                                                  <option value='' selected>Cari Karyawan</option>";
+                                                                  <option value='' selected>Cari User</option>";
                                                                 foreach ($karyawan as $rows){
                                                                   if ($id_karyawan==$rows['id_karyawan']){
                                                                     echo "<option value='$rows[id_karyawan]' selected>$rows[nama_karyawan]</option>";

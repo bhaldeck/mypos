@@ -48,7 +48,7 @@ $kode_pembelian = "PO-".sprintf("%06s", $kode->id_pembelian+1);
                                                                                 <label generated='true' class='error' id='message'></label></td></tr>
                     <tr><th width='150px' scope='row'>Tanggal Pembelian</th>    <td><input type='text' id='datepickerr' class='form-control' name='g' value='$g' required></td></tr>
                     <tr><th scope='row'>Oleh Karyawan</th>    <td><select name='c' class='combobox form-control'>
-                                                                  <option value='' selected>Cari Karyawan</option>";
+                                                                  <option value='' selected>Cari User</option>";
                                                                 foreach ($karyawan as $rows){
                                                                   if ($c == $rows['id_karyawan']){
                                                                     echo "<option value='$rows[id_karyawan]' selected>$rows[nama_karyawan]</option>";

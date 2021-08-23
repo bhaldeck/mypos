@@ -10,7 +10,7 @@
                         <th style='width:20px'>No</th>
                         <th>No. Faktur</th>
                         <th>Tanggal</th>
-                        <th>Karyawan</th>
+                        <th>User</th>
                         <th>Pelanggan</th>
                         <th>Type Bayar</th>
                         <th>Jumlah Bayar</th>

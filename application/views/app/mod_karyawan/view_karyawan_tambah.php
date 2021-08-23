@@ -14,7 +14,7 @@
                     <tr><th width='150px' scope='row'>Username</th>    <td><input type='text' class='form-control' name='a' required></td></tr>
                     <tr><th scope='row'>Password</th>    <td><input type='password' class='form-control' name='b' required></td></tr>
                     <tr><th scope='row'>NIK</th>    <td><input type='text' class='form-control' name='c' required></td></tr>
-                    <tr><th scope='row'>Nama Karyawan</th>    <td><input type='text' class='form-control' name='d' required></td></tr>
+                    <tr><th scope='row'>Nama User</th>    <td><input type='text' class='form-control' name='d' required></td></tr>
                     <tr><th scope='row'>Jenis Kelamin</th>    <td><select class='form-control' name='e' required>
                                                             <option value=''>- Pilih -</option>";
                                                             foreach ($jenis_kelamin as $r) {
@@ -95,7 +95,7 @@
                                                             }
                                                         echo "</select></td></tr>
                     <tr><th scope='row'>Tgl. Masuk</th>    <td><input type='text' class='form-control' name='z'></td></tr>
-                    <tr><th scope='row'>Status Karyawan</th>    <td><select class='form-control' name='aa' required>
+                    <tr><th scope='row'>Status User</th>    <td><select class='form-control' name='aa' required>
                                                             <option value=''>- Pilih -</option>";
                                                             foreach ($status_karyawan  as $r) {
                                                                 echo "<option value='$r[id_status_karyawan]'>$r[nama_status_karyawan]</option>";

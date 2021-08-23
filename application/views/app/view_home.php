@@ -82,7 +82,7 @@
           <a href="<?php echo base_url(); ?>app/pembelian" class='btn btn-app'><i class='fa fa-comments'></i> Pembelian</a>
           <a href="<?php echo base_url(); ?>app/supplier" class='btn btn-app'><i class='fa fa-bell-slash'></i> Supplier</a>
           <a href="<?php echo base_url(); ?>app/pelanggan" class='btn btn-app'><i class='glyphicon glyphicon-ok'></i> Pelanggan</a>
-          <a href="<?php echo base_url(); ?>app/karyawan" class='btn btn-app'><i class='glyphicon glyphicon-ok'></i> Karyawan</a>
+          <a href="<?php echo base_url(); ?>app/karyawan" class='btn btn-app'><i class='glyphicon glyphicon-ok'></i> User</a>
           <a href="<?php echo base_url(); ?>app/jabatan" class='btn btn-app'><i class='fa fa-th-list'></i> Jabatan</a>
           <a href="<?php echo base_url(); ?>app/departemen" class='btn btn-app'><i class='fa fa-bar-chart-o'></i> Departemen</a>
           <a href="<?php echo base_url(); ?>app/bebanbiaya" class='btn btn-app'><i class='fa fa-file-image-o'></i> Beban Biaya</a>
